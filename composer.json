@@ -1,0 +1,16 @@
+{
+    "name": "plugincompany/fraud-prevention-migrate",
+    "description": "Migrate database from Magento 1.x to Magento 2.x",
+    "authors": [
+        {
+            "name": "Milan",
+            "email": "milan@plugin.company"
+        }
+    ],
+    "require": {
+        "adhocore/cli": "^0.8.3"
+    },
+    "autoload": {
+        "psr-4": {"DataMigrator\\": "src/"}
+    }
+}
