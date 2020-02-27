@@ -1,7 +1,6 @@
 {
     "name": "plugincompany/fraud-prevention-migrate",
     "description": "Migrate database from Magento 1.x to Magento 2.x",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Milan",
