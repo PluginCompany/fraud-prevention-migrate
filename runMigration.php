@@ -16,7 +16,13 @@
 use DataMigrator\MigrateCommand;
 
 ini_set('display_errors', 1);
-require __DIR__ . '/vendor/autoload.php';
+
+$autoload = __DIR__ . '/../../autoload.php';
+if(!file_exists($autoload)) {
+    $autoload = __DIR__ . '/vendor/autoload.php';
+}
+require $autoload;
+
 
 
 // Init App with name and version
